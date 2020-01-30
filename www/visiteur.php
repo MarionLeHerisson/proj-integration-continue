@@ -14,7 +14,7 @@
 
                     $dbh = new PDO('mysql:host=db;dbname=mysql', 'marion', 'marion');
 
-                        $sql = 'SELECT * FROM utilisateurs ORDER BY name';
+                        $sql = 'SELECT * FROM utilisateurs ORDER BY age';
                         foreach ($dbh->query($sql) as $row) {
                             echo $row['name'] . "\t\t";
                             echo $row['age'] . "\t\t";
