@@ -14,11 +14,11 @@
 
                     $dbh = new PDO('mysql:host=db;dbname=mysql', 'marion', 'marion');
 
-                        $sql =  'SELECT * FROM utilisateurs ORDER BY name';
-                        foreach  ($dbh->query($sql) as $row) {
+                        $sql = 'SELECT * FROM utilisateurs ORDER BY name';
+                        foreach ($dbh->query($sql) as $row) {
                             echo $row['name'] . "\t\t";
                             echo $row['age'] . "\t\t";
-                            echo $row['pays'] . "<br>";
+                            echo $row['pays'] . '<br>';
                         }
                 ?>
             </fieldset>

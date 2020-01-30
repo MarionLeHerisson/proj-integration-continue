@@ -1,5 +1,5 @@
 <?php
 
-echo "<h1>POUET</h1>";
+echo '<h1>POUET</h1>';
 
 ?>
