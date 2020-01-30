@@ -11,9 +11,6 @@
             <fieldset>
                 <legend>Cette page contient les informations des utilisateurs de la base de donnée.</legend>
                 <?php
-//                    ini_set('display_errors', 1);
-//                    ini_set('display_startup_errors', 1);
-//                    error_reporting(E_ALL);
 
                     $dbh = new PDO('mysql:host=db;dbname=mysql', 'marion', 'marion');
 
